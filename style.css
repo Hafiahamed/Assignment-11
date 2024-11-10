@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: #f7f9fc;
+    height: 100vh;
+ 
+}
+.task-group{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 450px;
+    height: 350px;
+    padding: 40px;
+    background-color: #bb6871;
+    text-align: center;
+}
+
+input,button{
+    width: 100%;
+    padding: 20px;
+    margin: 10px 0;
+}
+ul{
+    list-style-type: none;
+    margin: 10px;
+}
